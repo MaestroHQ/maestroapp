@@ -15,6 +15,5 @@ class RagiosMonitor < ActiveRecord::Base
       address: ENV["RAGIOS_SERVER_URL"],
       port: ENV["RAGIOS_SERVER_PORT"]
     )
-    #Ragios::Client.new
   end
 end

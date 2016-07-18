@@ -1,10 +1,10 @@
 source 'https://rubygems.org'
 
-gem "administrate", "~> 0.1.1"
+#gem "administrate", "~> 0.1.1"
 gem 'codemirror-rails'
 gem 'devise'
-gem 'foundation-rails'
-gem 'rails', '4.2.4'
+gem 'foundation-rails', '~> 5.5.0'
+gem 'rails', '>= 5.0.0.rc1', '< 5.1'
 gem 'pg'
 gem 'sidekiq'
 gem 'rolify'
